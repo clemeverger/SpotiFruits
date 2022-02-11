@@ -1,4 +1,4 @@
-![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/Fichier%204.png?raw=true)
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/logo.png?raw=true)
 
 # Spotifruits
 
@@ -33,8 +33,7 @@ Grâce au micro-controlleur **ESP32** nous avons mis en place un moyen de jouer 
 
 L'ESP-32 devra être alimenté via USB. Pour ce qui est des branchements voici un schéma présentant les pins utilisés.
 
-![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/Fichier%204.png?raw=true)
-
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/DOCUMENTATION/SCHEMATICS.png?raw=true)
 
 
 ## Fonctionnement interne du contrôleur 
@@ -88,9 +87,8 @@ Une seule ligne de code suffit à instancier le contrôleur
 
 Afin de stocker le micro-controlleur ainsi que tous les câbles nous avons en parallèle modélisé puis imprimé une boîte. Voici quelques screenshot de la modélisation.
 
-![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/Capture%20d%E2%80%99e%CC%81cran%202022-02-11%20a%CC%80%2009.33.30.png?raw=true)
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/BOITIER%203D/Capture%20d%E2%80%99e%CC%81cran%202022-02-11%20a%CC%80%2009.33.30.png?raw=true)
 
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/BOITIER%203D/Capture%20d%E2%80%99e%CC%81cran%202022-02-11%20a%CC%80%2009.34.13.png?raw=true)
 
-![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/faceprint.jpeg?raw=true)
-
-![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/sideprint.jpeg?raw=true)
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/BOITIER%203D/faceprint.jpeg?raw=true)
