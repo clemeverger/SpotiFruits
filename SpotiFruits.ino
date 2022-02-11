@@ -18,16 +18,16 @@ int octave;
 unsigned long t0 = millis();
 
 //NOTE MIDI
-const int DO = 36;
-const int RE = 38;
-const int MI = 40;
-const int FA = 41;
-const int SOL = 43;
-const int LA = 45;
-const int SI = 47;
+const int DO = 36;  //PIN VERT
+const int RE = 38;  //PIN ORANGE
+const int MI = 40;  //PIN BLEU
+const int FA = 41;  //PIN JAUNE
+const int SOL = 43; //PIN ORANGE
+const int LA = 45;  //PIN MARRON
+const int SI = 47;  //PIN ROUGE
 
 //LCD
-const int A = 16; //YELLOW
+const int A = 16;
 const int B = 17;
 const int C = 18;
 const int D = 19;
