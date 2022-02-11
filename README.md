@@ -81,6 +81,13 @@ Une seule ligne de code suffit à instancier le contrôleur
       return baseNote + 12 * octave;
     }
 
+    //Définition de la broche du potentiomètre en entrée
+      pinMode(POTENTIOMETER, INPUT);
+      
+      //Récupération de l'octave sélectionné sur le potentiomètre
+      valuePotentiometer = analogRead(POTENTIOMETER);
+      octave = round(((7 * valuePotentiometer) / 4096) + 1);
+
 
 ;
 ## Impression 3D d'une boîte 
