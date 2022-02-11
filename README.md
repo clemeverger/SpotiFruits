@@ -67,5 +67,6 @@ Afin de stocker le micro-controlleur ainsi que tous les câbles nous avons en pa
 ![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/Capture%20d%E2%80%99e%CC%81cran%202022-02-11%20a%CC%80%2009.33.30.png?raw=true)
 
 
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/faceprint.jpeg?raw=true)
 
-
+![enter image description here](https://github.com/clemeverger/SpotiFruits/blob/main/sideprint.jpeg?raw=true)
