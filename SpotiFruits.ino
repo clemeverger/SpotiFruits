@@ -22,7 +22,7 @@ const int DO = 36;  //PIN VERT
 const int RE = 38;  //PIN ORANGE
 const int MI = 40;  //PIN BLEU
 const int FA = 41;  //PIN JAUNE
-const int SOL = 43; //PIN ORANGE
+const int SOL = 43; //PIN BLANC
 const int LA = 45;  //PIN MARRON
 const int SI = 47;  //PIN ROUGE
 
