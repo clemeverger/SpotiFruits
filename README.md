@@ -58,8 +58,32 @@ Une seule ligne de code suffit à instancier le contrôleur
     const int SI = 47;
     
      MIDI.sendNoteOn(DO, 100, 10); // MIDI note, velocité, channel
-     MIDI.sendNoteOn(RE, 100, 10);
+    case 13:
+	    if ((millis() - t0) > 150){ // on gère le temps à partir du moment où la touche est jouée afin de la conserver au maximum
+	     t0 = millis(); // on redéclare t0 dans le cas où la touche est rejouée par l'utilisateur
+	     MIDI.sendNoteOn(getNote(RE, octave), 100, 10); // on envoit la note midi au player, avec l'id MIDI, son volume et son channel
+	    }
 
+### Gestion des pins, potentiomètre et écran digit 7-segments
+
+    const int NUMBER_OF_TOUCH_PIN = 7;
+    const int touchPin[NUMBER_OF_TOUCH_PIN] = {15, 13, 12, 14, 27, 33, 32}; // pins où les instruments sont branchés 
+    bool touchPinUnlock[NUMBER_OF_TOUCH_PIN];
+    int touchValue[NUMBER_OF_TOUCH_PIN];
+    
+    const int threshold = 20; //Pour toutes les entrées capacitive, si l'entrée est supérieure au seuil de détection (threshold) : --> on envoit donc la Note MIDI
+    
+    const int POTENTIOMETER = 35; // pin où est connecté le potentiomètre
+    int valuePotentiometer = 0
+
+    //Récupère la note en fonction de l'octave sélectionné
+    int getNote(int baseNote, int octave) // l'octave envoyée provient de la valeur du potentiomètre
+    {
+      return baseNote + 12 * octave;
+    }
+
+
+;
 ## Impression 3D d'une boîte 
 
 Afin de stocker le micro-controlleur ainsi que tous les câbles nous avons en parallèle modélisé puis imprimé une boîte. Voici quelques screenshot de la modélisation.
